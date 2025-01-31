@@ -1,0 +1,30 @@
+{
+  "name": "salon_mevn_backend",
+  "version": "1.0.0",
+  "description": "Backend Rest API - Salon MEVN",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "dev:postman": "nodemon index.js --postman",
+    "start": "node  index.js",
+    "seed:import": "node data/seed.js --import",
+    "seed:delete": "node data/seed.js --delete"
+  },
+  "author": "Cesar Briam Zubilete @Brycezusan",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "nodemailer": "^6.9.16"
+  }
+}
