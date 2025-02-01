@@ -16,3 +16,5 @@ Backend realizado con express y node-js
   - Creacion de usuarios
   - validacion por token
   - validacion por jwt
+
+- Hosting => Back4App Containers
